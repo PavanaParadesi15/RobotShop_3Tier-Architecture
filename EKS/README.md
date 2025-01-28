@@ -76,6 +76,8 @@ OIDC configuration is completed
 # Setup ALB - Application Load Balancer
 * ALB is required to expose the application to external world. Expose it using ingress and ingress controller. 
 * I created  ingress with deployment and service .
+* There are 2 ways to expose application to external world in K8s,
+  1. Loadbalancer type service      2. Use Ingress based service. Create ingress for the service
 
 ### Download IAM policy
 ```

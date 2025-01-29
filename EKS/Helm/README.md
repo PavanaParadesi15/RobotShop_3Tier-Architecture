@@ -8,7 +8,7 @@ chmod 700 get_helm.sh
 ### Create a namespace
 ```
 kubectl create ns robot-shop
-helm install robot-shop --namespace robot-shop .                    // command to install helm chart
+helm install robot-shop --namespace robot-shop .                    //  helm chart deploys the component
 ``` 
 
 * IN the Helm chart there are 2 important components 

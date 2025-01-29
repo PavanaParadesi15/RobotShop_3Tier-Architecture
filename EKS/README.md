@@ -150,7 +150,7 @@ eksctl create iamserviceaccount \
     --role-name AmazonEKS_EBS_CSI_DriverRole \
     --role-only \
     --attach-policy-arn arn:aws:iam::aws:policy/service-role/AmazonEBSCSIDriverPolicy \
-    --approve
+    --approve --region us-east-1
 ```
 Once IAM service account is created, Create a addon
 ```

@@ -127,6 +127,7 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller -n ku
 ### Verify that the deployments (ALB controller pods) are running.
 ```
 kubectl get deployment -n kube-system aws-load-balancer-controller
+kubectl get pods -n kube-system             // shows all the pods running
 ```
 
 # EBS CSI Plugin configuration

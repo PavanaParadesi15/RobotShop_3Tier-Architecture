@@ -26,4 +26,5 @@ kubectl get ingress -n robot-shop
 
 Ingress is assigned with LB DNS name. Application can be accessed with this DNS name
 
+![image](https://github.com/user-attachments/assets/7bf52237-7c6d-4b87-a9ea-4408fb48512d)
 
